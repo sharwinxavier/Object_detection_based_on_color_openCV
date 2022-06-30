@@ -4,7 +4,7 @@ import cv2
 redLower = (157, 93, 203)
 redUpper = (179, 255, 255)
 
-camera=cv2.VideoCapture(1)
+camera=cv2.VideoCapture(0)
 
 while True:
 

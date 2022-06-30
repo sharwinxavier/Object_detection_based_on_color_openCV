@@ -10,7 +10,7 @@ import pyautogui
 from threading import Thread, Lock
 once = True
 img_screenshot = None
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 class App:
     original_image = None
     hsv_image = None
